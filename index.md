@@ -1,0 +1,1 @@
+# よみながら作れるMagic xpa WebClient開発ガイドライン
