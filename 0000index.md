@@ -9,9 +9,9 @@
 
 # 開発のフロー
 
-
-
 ## Magic
+
+
 ### gitでpullする
 
 ### gitでCommitする
