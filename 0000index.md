@@ -4,6 +4,7 @@
 ## [Magic](0200Magic.md)
 ## [VSCode](0300VSCode.md)
 ## [Angular](0400Angular.md)
+## [Angular 各モジュール設定](0450Angularモジュール設定.md)
 ## [デザイン](0500%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3.md)
 ## [デプロイ](0600%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4.md)
 
