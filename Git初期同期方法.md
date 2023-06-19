@@ -70,15 +70,18 @@ https://tortoisegit.org/
         ![](imgs/2023-06-19-11-56-52.png)
 
    1. Compare & Merge の設定をします
+
       1. プロジェクトを開きます。確認の画面が出るので「OK」ボタンを押します。  
          ![](imgs/2023-06-14-14-04-18.png)
       1. 2 行目の Compare & Merge ユーティリティ設定が「×」の印なので「設定…」を押します  
          ![](imgs/2023-06-14-14-05-36.png)
       1. ローカルフォルダが開き Compare & Merge に必要なフォルダが表示されます  
+         C:\Program Files (x86)\Magic Compare 4
          その中でも「 merge.exe 」を開きます  
-         ![](imgs/2023-06-14-14-08-05.png)
+          ![](imgs/2023-06-14-14-08-05.png)
       1. するとユーティリティの設定が終わります  
          ![](imgs/2023-06-14-14-10-38.png)
+
    1. コミットの準備をします
 
       1. プロジェクトが開いたらブランチが develop で開いているか確認してください
@@ -103,6 +106,31 @@ https://tortoisegit.org/
          file:///C:/Magic/Studio49/Help/index.htm?rhcsh=1%3Frhmapno%3D0#t=mergedProjects%2FTechnical%20Notes%2FConcept_Papers%2FConnecting_Magic_xpa_with_Git_Repository%2FTroubleshooting_Git_Command_Issues.htm&rhsearch=GITScripts%20xpa&rhhlterm=GITScripts%20xpa&rhsyns=%20
 
          「Yes」を押した後は完了したなどの表記は出ません。
+
+         何も編集がない場合はここで終わっても OK です。
+
+      ## ※注意点※
+
+      - 初期化できないとき  
+        ![](imgs/2023-06-19-16-55-04.png)  
+        master ブランチがないと develop が初期化できないと表示が出ます。
+        その場合は master ブランチを追加します。
+
+      1. ファイルメニューから
+         バージョン管理＞ ブランチを作成  
+         ![](imgs/2023-06-19-16-58-47.png)
+      1. ブランチ名を「master」&基点を「HEAD」  
+         ![](imgs/2023-06-19-16-59-52.png)
+      1. バージョン管理＞ 切り替え/チェックアウト  
+         ![](imgs/2023-06-19-17-01-30.png)
+      1. ブランチから「master」を選ぶ  
+         ![](imgs/2023-06-19-17-02-53.png)
+      1. Git と同期をする  
+         ![](imgs/2023-06-19-17-04-10.png)
+      1. そのままプッシュボタンを押して OK  
+         ![](imgs/2023-06-19-17-05-00.png)
+      1. Githab 上に master ができているか確認します  
+         ![](imgs/2023-06-19-17-06-46.png)
 
 ## 編集を始める
 
