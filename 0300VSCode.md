@@ -20,6 +20,20 @@
 
 # Step2 Git hub との同期を設定する
 
+## トークンが必要な場合（20230621 更新）
+
+1. リポジトリを初期化するのは同じ
+1. ターミナルを開く（Ctrl+@）も同じ
+1. C:\USER\開いているフォルダ名>の右隣に入力する URL が変わります  
+   「git remote add origin https://ユーザー名：トークン＠github.com/接続先の Git 名/接続したいフォルダ名.git」を入力します。これで GitHub とのつながりができました。
+1. main にいる状態で「pull origin 【develop】」を入力  
+   【】の中にいれるのはファイルが置いてあるブランチ名を入れます。
+1. Ctrl+Shift+P を押してコマンドパレットを表示
+1. 「Gitflow : Initialize repository for gitflow 」を探し Enter
+1. 「main」「develop」などの表示が何も表示されなくなるまで Enter を繰り返し押す
+1. 画面左下のアイコンの「master」をクリック ⇒「develop」へ移動する(上の処理が終わったときに develop へ移動しているかもしれません)
+1. 左下のアイコンに「develop」と書いてあることを確認する
+
 ## 同期するフォルダを準備する
 
 1. Git hub 上のフォルダ名と同じフォルダーをローカルに作成する
