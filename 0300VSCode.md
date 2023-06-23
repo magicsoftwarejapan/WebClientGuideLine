@@ -26,7 +26,7 @@
 1. ターミナルを開く（Ctrl+@）も同じ
 1. C:\USER\開いているフォルダ名>の右隣に入力する URL が変わります  
    「git remote add origin https://ユーザー名：トークン＠github.com/接続先の Git 名/接続したいフォルダ名.git」を入力します。これで GitHub とのつながりができました。
-1. main にいる状態で「pull origin 【develop】」を入力  
+1. main にいる状態で「git pull origin 【develop】」を入力  
    【】の中にいれるのはファイルが置いてあるブランチ名を入れます。
 1. Ctrl+Shift+P を押してコマンドパレットを表示
 1. 「Gitflow : Initialize repository for gitflow 」を探し Enter
